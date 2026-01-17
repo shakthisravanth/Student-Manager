@@ -1,0 +1,3 @@
+tabs: ["StudentApp.java", "Student.java"]
+run-button: javac Student.java StudentApp.java && java StudentApp
+terminals: ["javac Student.java StudentApp.java && java StudentApp"]
