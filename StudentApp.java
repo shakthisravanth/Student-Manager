@@ -3,21 +3,17 @@
 // Inside the class, write the main method
 
 // Inside main method:
-// Create a Student object using the constructor with:
+// Create a Student object by passing:
 // id, name, age, and course
 
-// Print the heading "Student Details"
-
-// Print a line separator using dashes
+// Print the heading "Student Details:"
 
 // Use getter methods to access and print:
-// Id
-// Name
-// Age
-// Course
+// Id (from Person class)
+// Name (from Person class)
+// Age (from Person class)
+// Course (from Student class)
 
-// Print a message like "Trying invalid update:"
-
-// Call the setter method to update age with an invalid value (example: negative number)
-
-// Print the age again using getter method to show that the value did not change
+// Note for students:
+// Even though id, name, and age belong to the parent class (Person),
+// they can be accessed using the Student object through getter methods

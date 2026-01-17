@@ -1,37 +1,19 @@
-// Create a class named Student
+// Create a class named Student that extends the Person class
 
-// Declare four private variables:
-// id (int)
-// name (String)
-// age (int)
+// Declare one private variable:
 // course (String)
 
 // Create a public constructor that accepts:
-// id, name, age, and course
+// id, name, age, and course as parameters
 
 // Inside the constructor:
-// Assign the values to class variables using the 'this' keyword
+// Call the parent class constructor using super(id, name, age)
+// Assign the course value using the 'this' keyword
 
-// Create getter methods for all variables:
-// getId()
-// getName()
-// getAge()
-// getCourse()
+// Create a getter method:
+// getCourse() → returns course
 
-// Create setter method for name:
-// Accept name as parameter
-// Check if name is not null and not empty
-// If valid, update the value
-// Otherwise, print an error message
-
-// Create setter method for age:
-// Accept age as parameter
-// Check if age is greater than 0
-// If valid, update the value
-// Otherwise, print an error message
-
-// Create setter method for course:
+// Create a setter method for course:
 // Accept course as parameter
 // Check if course is not null and not empty
 // If valid, update the value
-// Otherwise, print an error message
