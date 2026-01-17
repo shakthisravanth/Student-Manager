@@ -21,6 +21,3 @@
 // When you print the object directly,
 // the overridden toString() method will be called automatically
 
-// Learning outcome:
-// Understanding how to store objects inside a collection
-// and how to loop through them
