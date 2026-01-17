@@ -45,8 +45,4 @@
 // If the user enters any other number:
 // Display "Invalid choice. Try again."
 
-// Learning outcome:
-// Using ArrayList dynamically
-// Taking user input with Scanner
-// Working with loops, switch-case, and objects
-// Building a simple console-based application
+
