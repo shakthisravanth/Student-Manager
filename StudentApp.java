@@ -34,7 +34,3 @@
 // If the user enters any other number:
 // Display "Invalid choice. Try again."
 
-// Learning outcome:
-// Understanding menu-driven programs
-// Using ArrayList with objects
-// Using loops, switch-case, and Scanner together
