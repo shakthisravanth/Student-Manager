@@ -8,47 +8,49 @@
 
 // Inside the main method:
 // Create an empty ArrayList to store Student objects
-// Create a Scanner object for user input
+// Create a Scanner object to take user input
 
 // Use an infinite loop (while true) so the menu keeps repeating
 
-// Display the menu options to the user:
+// Display the menu options:
 // 1. Add Student
 // 2. View Students
 // 3. Update Student
-// 4. Exit
+// 4. Delete Student
+// 5. Exit
 
 // Ask the user to enter their choice
 
 // Use a switch statement to perform actions based on the user's choice
 
+
 // --------------------------------------------------
-// If choice is 1 (Add Student):
+// OPTION 1: ADD STUDENT
 // Ask the user to enter:
 // - Id (integer)
 // - Name (string)
 // - Age (integer)
 // - Course (string)
 
-// Use sc.nextLine() after reading numbers:
-// To clear the input buffer before reading String input
+// Use sc.nextLine() after numeric input:
+// To clear the input buffer before reading String values
 
-// Create a new Student object using the entered values
+// Create a new Student object using the entered details
 
-// Add the Student object to the ArrayList
+// Add the new Student object to the ArrayList
 
-// Display a success message:
+// Display confirmation message:
 // "Student added successfully!"
 // --------------------------------------------------
 
 
 // --------------------------------------------------
-// If choice is 2 (View Students):
+// OPTION 2: VIEW STUDENTS
 // Print a heading like "Student List:"
 
 // Use a for-each loop to:
 // Access each Student object from the ArrayList
-// Print each student using System.out.println()
+// Print each Student using System.out.println()
 
 // Note for students:
 // Printing the object directly will call the toString() method
@@ -56,12 +58,12 @@
 
 
 // --------------------------------------------------
-// If choice is 3 (Update Student):
+// OPTION 3: UPDATE STUDENT
 // Ask the user to enter the Student ID to update
 
 // Search for the student inside the ArrayList using a loop
 
-// If no matching student is found:
+// If no student matches the given ID:
 // Print "Student not found!"
 
 // If the student is found:
@@ -70,7 +72,7 @@
 // - Age
 // - Course
 
-// Use setter methods to update the student data:
+// Use setter methods to update the student details:
 // setName()
 // setAge()
 // setCourse()
@@ -81,8 +83,27 @@
 
 
 // --------------------------------------------------
-// If choice is 4 (Exit):
-// Print exit message
+// OPTION 4: DELETE STUDENT
+// Ask the user to enter the Student ID to delete
+
+// Search for the student inside the ArrayList using a loop
+
+// If no student matches the given ID:
+// Print "Student not found!"
+
+// If the student is found:
+// Remove the student object from the ArrayList
+
+// Display confirmation message:
+// "Student deleted successfully!"
+// --------------------------------------------------
+
+
+// --------------------------------------------------
+// OPTION 5: EXIT
+// Print exit message:
+// "Exiting program..."
+
 // Stop the program using System.exit(0)
 // --------------------------------------------------
 
@@ -91,10 +112,12 @@
 // Display "Invalid choice. Try again."
 
 
-// Learning outcomes of this lab:
-// Using ArrayList with objects
-// Taking dynamic input using Scanner
-// Working with loops and switch-case
-// Searching and updating objects
-// Using constructors, getters, setters, and toString()
-// Building a real menu-driven console application
+// Learning outcomes of this project:
+// Working with ArrayList and objects
+// Using Scanner for dynamic user input
+// Using loops and switch-case for menu-driven programs
+// Searching objects in a collection
+// Updating object data using setters
+// Deleting objects from ArrayList
+// Understanding constructors, getters, setters, and toString()
+// Building a complete console-based CRUD application
