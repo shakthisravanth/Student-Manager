@@ -91,10 +91,3 @@
 // Display "Invalid choice. Try again."
 
 
-// Learning outcomes of this lab:
-// Using ArrayList with objects
-// Taking dynamic input using Scanner
-// Working with loops and switch-case
-// Searching and updating objects
-// Using constructors, getters, setters, and toString()
-// Building a real menu-driven console application
