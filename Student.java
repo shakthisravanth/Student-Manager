@@ -1,10 +1,13 @@
-    
-    // Create a class named Student
+// Create a class named Student
 
-    // Declare an int variable to store student ID
+// Declare four instance variables:
+// id (int)
+// name (String)
+// age (int)
+// course (String)
 
-    // Declare a String variable to store student name
+// Create a constructor that accepts:
+// id, name, age, and course as parameters
 
-    // Declare an int variable to store student age
-
-    // Declare a String variable to store course name
+// Inside the constructor:
+// Use the 'this' keyword to assign parameter values to class variables

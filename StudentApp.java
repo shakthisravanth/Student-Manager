@@ -1,21 +1,17 @@
 // Create a class named StudentApp
 
-// Inside the class, create the main method
+// Inside the class, write the main method
 
-// Create an object of the Student class
-
-// Assign values to the student object for:
-
+// Inside main method:
+// Create a Student object using a constructor that accepts:
 // id, name, age, and course
 
-// Print a heading like "Student Details"
+// Print the heading "Student Details"
 
-// Print a line separator
+// Print a line separator using dashes
 
-// Display student id using the object
-
-// Display student name using the object
-
-// Display student age using the object
-
-// Display student course using the object
+// Access the student object variables and print:
+// Id
+// Name
+// Age
+// Course
