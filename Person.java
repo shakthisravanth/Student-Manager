@@ -1,21 +1,24 @@
-// Create a class named Person
+public class Person {
 
-// Declare three protected variables:
-// id (int)
-// name (String)
-// age (int)
+    protected int id;
+    protected String name;
+    protected int age;
 
-// Create a public constructor that accepts:
-// id, name, and age as parameters
+    public Person(int id, String name, int age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
 
-// Inside the constructor:
-// Use the 'this' keyword to assign parameter values to class variables
+    public int getId() {
+        return id;
+    }
 
-// Create getter methods for each variable:
-// getId() → returns id
-// getName() → returns name
-// getAge() → returns age
+    public String getName() {
+        return name;
+    }
 
-// Note for students:
-// 'protected' variables can be accessed inside child (subclass) classes
-// This class will be used as a parent class for inheritance
+    public int getAge() {
+        return age;
+    }
+}

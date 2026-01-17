@@ -2,18 +2,12 @@
 
 // Inside the class, write the main method
 
-// Inside main method:
-// Create a Student object by passing:
-// id, name, age, and course
+// Inside the main method:
+// Create a Student object by passing id, name, age, and course using the constructor
 
 // Print the heading "Student Details:"
 
-// Use getter methods to access and print:
-// Id (from Person class)
-// Name (from Person class)
-// Age (from Person class)
-// Course (from Student class)
+// Print the student object directly using System.out.println()
 
 // Note for students:
-// Even though id, name, and age belong to the parent class (Person),
-// they can be accessed using the Student object through getter methods
+// Printing an object will internally call the toString() method of the Student class
