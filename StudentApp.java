@@ -1,33 +1,44 @@
-// Import ArrayList class to store multiple Student objects
+// Import ArrayList to store multiple Student objects
 
-// Import Scanner class to take user input
+// Import Scanner to take input from the user
 
 // Create a class named StudentApp
 
 // Inside the class, write the main method
 
 // Inside the main method:
-// Create an ArrayList to store Student objects
+// Create an empty ArrayList to store Student objects
+// Create a Scanner object for user input
 
-// Add a few Student objects directly into the ArrayList
+// Use an infinite loop (while true) to keep showing the menu
 
-// Create a Scanner object to read input from the user
-
-// Use an infinite loop (while true) to keep the program running
-
-// Inside the loop:
-// Display a menu with options:
-// 1. View Students
-// 2. Exit
+// Display the menu options:
+// 1. Add Student
+// 2. View Students
+// 3. Exit
 
 // Ask the user to enter their choice
 
-// Use switch statement to handle the user's choice
+// Use a switch statement to perform actions based on the choice
 
-// If choice is 1:
-// Display all students using a for-each loop
+// If choice is 1 (Add Student):
+// Ask the user to enter:
+// - Id
+// - Name
+// - Age
+// - Course
+// Create a new Student object using the entered values
+// Add the Student object to the ArrayList
+// Display a success message
 
-// If choice is 2:
+// Note for students:
+// sc.nextLine() is used to clear the input buffer after reading numbers
+
+// If choice is 2 (View Students):
+// Loop through the ArrayList using for-each loop
+// Print each Student object
+
+// If choice is 3 (Exit):
 // Print exit message
 // Stop the program using System.exit(0)
 
@@ -35,6 +46,7 @@
 // Display "Invalid choice. Try again."
 
 // Learning outcome:
-// Understanding menu-driven programs
-// Using ArrayList with objects
-// Using loops, switch-case, and Scanner together
+// Using ArrayList dynamically
+// Taking user input with Scanner
+// Working with loops, switch-case, and objects
+// Building a simple console-based application
