@@ -110,14 +110,3 @@
 
 // If the user enters any invalid option:
 // Display "Invalid choice. Try again."
-
-
-// Learning outcomes of this project:
-// Working with ArrayList and objects
-// Using Scanner for dynamic user input
-// Using loops and switch-case for menu-driven programs
-// Searching objects in a collection
-// Updating object data using setters
-// Deleting objects from ArrayList
-// Understanding constructors, getters, setters, and toString()
-// Building a complete console-based CRUD application
