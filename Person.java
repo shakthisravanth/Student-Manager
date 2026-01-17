@@ -1,5 +1,4 @@
 public class Person {
-
     protected int id;
     protected String name;
     protected int age;
@@ -10,15 +9,25 @@ public class Person {
         this.age = age;
     }
 
-    public int getId() {
-        return id;
+    public int getId() { 
+        return id; 
+    }
+    public String getName() { 
+        return name; 
+    }
+    public int getAge() { 
+        return age; 
     }
 
-    public String getName() {
-        return name;
+    public void setName(String name) {
+        if(name != null && !name.isEmpty()) {
+            this.name = name;
+        }
     }
 
-    public int getAge() {
-        return age;
+    public void setAge(int age) {
+        if(age > 0) {
+            this.age = age;
+        }
     }
 }

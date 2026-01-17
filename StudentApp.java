@@ -1,6 +1,6 @@
-// Import ArrayList to store multiple Student objects
+// Import ArrayList from java.util package to store multiple Student objects
 
-// Import Scanner to take input from the user
+// Import Scanner from java.util package to take input from the user
 
 // Create a class named StudentApp
 
@@ -10,43 +10,91 @@
 // Create an empty ArrayList to store Student objects
 // Create a Scanner object for user input
 
-// Use an infinite loop (while true) to keep showing the menu
+// Use an infinite loop (while true) so the menu keeps repeating
 
-// Display the menu options:
+// Display the menu options to the user:
 // 1. Add Student
 // 2. View Students
-// 3. Exit
+// 3. Update Student
+// 4. Exit
 
 // Ask the user to enter their choice
 
-// Use a switch statement to perform actions based on the choice
+// Use a switch statement to perform actions based on the user's choice
 
+// --------------------------------------------------
 // If choice is 1 (Add Student):
 // Ask the user to enter:
-// - Id
+// - Id (integer)
+// - Name (string)
+// - Age (integer)
+// - Course (string)
+
+// Use sc.nextLine() after reading numbers:
+// To clear the input buffer before reading String input
+
+// Create a new Student object using the entered values
+
+// Add the Student object to the ArrayList
+
+// Display a success message:
+// "Student added successfully!"
+// --------------------------------------------------
+
+
+// --------------------------------------------------
+// If choice is 2 (View Students):
+// Print a heading like "Student List:"
+
+// Use a for-each loop to:
+// Access each Student object from the ArrayList
+// Print each student using System.out.println()
+
+// Note for students:
+// Printing the object directly will call the toString() method
+// --------------------------------------------------
+
+
+// --------------------------------------------------
+// If choice is 3 (Update Student):
+// Ask the user to enter the Student ID to update
+
+// Search for the student inside the ArrayList using a loop
+
+// If no matching student is found:
+// Print "Student not found!"
+
+// If the student is found:
+// Ask the user to enter new values for:
 // - Name
 // - Age
 // - Course
-// Create a new Student object using the entered values
-// Add the Student object to the ArrayList
-// Display a success message
 
-// Note for students:
-// sc.nextLine() is used to clear the input buffer after reading numbers
+// Use setter methods to update the student data:
+// setName()
+// setAge()
+// setCourse()
 
-// If choice is 2 (View Students):
-// Loop through the ArrayList using for-each loop
-// Print each Student object
+// Display confirmation message:
+// "Student updated successfully!"
+// --------------------------------------------------
 
-// If choice is 3 (Exit):
+
+// --------------------------------------------------
+// If choice is 4 (Exit):
 // Print exit message
 // Stop the program using System.exit(0)
+// --------------------------------------------------
 
-// If the user enters any other number:
+
+// If the user enters any invalid option:
 // Display "Invalid choice. Try again."
 
-// Learning outcome:
-// Using ArrayList dynamically
-// Taking user input with Scanner
-// Working with loops, switch-case, and objects
-// Building a simple console-based application
+
+// Learning outcomes of this lab:
+// Using ArrayList with objects
+// Taking dynamic input using Scanner
+// Working with loops and switch-case
+// Searching and updating objects
+// Using constructors, getters, setters, and toString()
+// Building a real menu-driven console application
