@@ -1,4 +1,6 @@
-// Import the ArrayList class from java.util package
+// Import ArrayList class to store multiple Student objects
+
+// Import Scanner class to take user input
 
 // Create a class named StudentApp
 
@@ -7,20 +9,32 @@
 // Inside the main method:
 // Create an ArrayList to store Student objects
 
-// Create three Student objects with different values
+// Add a few Student objects directly into the ArrayList
 
-// Add all Student objects into the ArrayList
+// Create a Scanner object to read input from the user
 
-// Print a heading like "Student List:"
+// Use an infinite loop (while true) to keep the program running
 
-// Use a for-each loop to:
-// Access each Student object from the list
-// Print each object using System.out.println()
+// Inside the loop:
+// Display a menu with options:
+// 1. View Students
+// 2. Exit
 
-// Note for students:
-// When you print the object directly,
-// the overridden toString() method will be called automatically
+// Ask the user to enter their choice
+
+// Use switch statement to handle the user's choice
+
+// If choice is 1:
+// Display all students using a for-each loop
+
+// If choice is 2:
+// Print exit message
+// Stop the program using System.exit(0)
+
+// If the user enters any other number:
+// Display "Invalid choice. Try again."
 
 // Learning outcome:
-// Understanding how to store objects inside a collection
-// and how to loop through them
+// Understanding menu-driven programs
+// Using ArrayList with objects
+// Using loops, switch-case, and Scanner together
